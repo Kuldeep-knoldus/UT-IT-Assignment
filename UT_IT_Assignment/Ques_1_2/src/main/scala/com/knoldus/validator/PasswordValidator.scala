@@ -4,7 +4,7 @@ class PasswordValidator {
 
   def isValidPassword(password: String): Boolean = {
 
-    if (password.matches("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,10}$"))
+    if (password.matches("^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,15}$"))
     return true
     else
       false
