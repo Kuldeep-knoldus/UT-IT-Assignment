@@ -30,7 +30,7 @@ class PasswordValidatorTest extends AnyFunSuite {
   test("Password should contain at least one special character") {
     assert(!password.isValidPassword("Kuldeep12345") === true)
   }
-  test("Password entered is correct, fulfills all requirements") {
+  test("Password entered is correct, fulfills all the requirements") {
     assert(password.isValidPassword("Kuldeep*2021") === true)
   }
 }
